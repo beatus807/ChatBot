@@ -8,7 +8,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const apiKey = process.env.GEMINI_API_KEY;
 if (!apiKey) {
-  console.error("❌ Missing GEMINI_API_KEY in .env");
+  console.error("❌ Missing, GEMINI_API_KEY in .env");
   process.exit(1);
 }
 
